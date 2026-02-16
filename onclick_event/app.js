@@ -7,3 +7,5 @@ function expandText(textId) {
   
     textElement.innerText = expandedText;
 }
+
+// event
