@@ -1,4 +1,4 @@
-// var heading = document.getElementById('heading')
+// var head = document.getElementById('heading')
 
 // console.log(heading)
 
@@ -10,4 +10,5 @@
 
 // childNodes
 // firstChild
+
 // lastChild
