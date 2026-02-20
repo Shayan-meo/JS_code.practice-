@@ -1,0 +1,68 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>19-02-2026</title>
+    <script src="app.js " defer></script>
+</head>
+<body>
+        
+
+
+
+
+    <div id="main-container">
+  <p class="text-bold" id="para1" data-info="secret-node">Pehla Paragraph</p>
+  <p id="target-para" title="Hello World">Doosra Paragraph (Aapka Target)</p>
+</div>
+
+
+</body>
+</html>
+ -->
+
+
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Attribute Example</title>
+</head>
+<body>
+
+<input type="text" id="myInput" placeholder="Type something">
+
+<br><br>
+
+<button onclick="checkAttr()">Check Placeholder</button>
+<button onclick="showValue()">Show Placeholder Value</button>
+<button onclick="changeValue()">Change Placeholder</button>
+
+<script>
+
+    function checkAttr() {
+        let input = document.getElementById("myInput");
+
+        if (input.hasAttribute("placeholder")) {
+            alert("Attribute exists!");
+        } else {x
+            alert("Attribute does NOT exist!");
+        }
+    }
+
+    function showValue() {
+        let input = document.getElementById("myInput");
+        let value = input.getAttribute("placeholder");
+        alert("Value is: " + value);
+    }
+
+    function changeValue() {
+        let input = document.getElementById("myInput");
+        input.setAttribute("placeholder", prompt("New placeholder:"));
+        alert("Placeholder changed!");
+    }
+
+</script>
+
+</body>
+</html>
