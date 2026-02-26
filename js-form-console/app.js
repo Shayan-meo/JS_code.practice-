@@ -15,7 +15,8 @@ function onSubmit(nameId, emailId , passId){
     Password.value="";
 
     
-}
+};
+
 
 
 
