@@ -6,6 +6,7 @@
 
 
 
+
 // var parentEle = document.getElementsByTagName('div')[0].childNodes[1]
 
 
@@ -75,4 +76,5 @@
 //     // allAttributes[i].name = Attribute ka naam (e.g., id, title, class)
 //     // allAttributes[i].value = Uske andar ki value (e.g., target-para)
 //     console.log(allAttributes[i].name + " : " + allAttributes[i].value);
+
 // }
