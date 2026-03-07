@@ -5,8 +5,6 @@
 // console.log(target)
 
 
-
-
 // var parentEle = document.getElementsByTagName('div')[0].childNodes[1]
 
 
@@ -78,3 +76,4 @@
 //     console.log(allAttributes[i].name + " : " + allAttributes[i].value);
 
 // }
+
