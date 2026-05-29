@@ -63,4 +63,3 @@ webUsers.forEach((uesr,index) =>{
    console.log(`User no : ${index +1} ${uesr.name} (${uesr.role})`);
    
 })
-
